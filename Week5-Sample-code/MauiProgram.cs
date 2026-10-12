@@ -18,7 +18,9 @@ namespace Week5_Sample_code
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                });
+                }).UseMauiCommunityToolkit()
+            .UseMauiCommunityToolkitMediaElement(); 
+
             builder.Services.AddTransient<ToggleConentViewPage>();   
             builder.Services.AddSingleton<IDataService,DataService>();
 #if DEBUG

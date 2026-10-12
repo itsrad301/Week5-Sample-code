@@ -20,15 +20,15 @@
     </Shell.Resources>
     <Shell.ItemTemplate>
         <DataTemplate>
-            <Grid ColumnDefinitions="0.2*,0.8*">
-                <Image Source="{Binding FlyoutIcon}"
+            <Grid WidthRequest="270" ColumnDefinitions="0.2*,0.8*">
+                <Image Grid.Column="0" Source="dotnet_bot.png"
                    Margin="5"
                    HeightRequest="45" />
                 <Label Grid.Column="1"
                    Text="{Binding Title}"
                    TextColor="{Binding TextColor}"
                    FontAttributes="Italic"
-                   VerticalTextAlignment="Center" />
+                   VerticalTextAlignment="Start" />
             </Grid>
         </DataTemplate>
     </Shell.ItemTemplate>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Comment CommentText="public void AddSupplier(Supplier supplier)&#xD;&#xA;{&#xD;&#xA;    StaticDataContext.Suppliers.Add(supplier);&#xD;&#xA;}">
-    <Position X="5.531" Y="3.833" Height="1.479" Width="3.117" />
+    <Position X="4.114" Y="4.875" Height="1.479" Width="3.117" />
   </Comment>
   <Class Name="Week5_Sample_code.DataLayer.StaticDataContext">
     <Position X="5" Y="1.75" Width="1.5" />
